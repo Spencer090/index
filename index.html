@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>demo</title>
+    <style>
+
+
+        .demo{
+            position: relative;
+            width: 200px;
+            height: 200px;
+            border-radius: 200px;
+            border: 5px double red;
+            margin-left: 500px;
+            right: 80px;
+            top: 60px;
+            z-index: 5;
+            
+        }
+        .demo1{
+            position:absolute;
+            width: 200px;
+            height: 200px;
+            border-radius: 200px;
+            border: 5px double red;
+            right: 390px;
+            top: 350px;
+            
+        }
+        .d{
+            position: absolute;
+            width: 200px;
+            height: 200px;
+            border-radius: 200px;
+           border-left: 7px double rgb(0, 0, 255);
+           margin-left: 300px;
+            background-color: rgba(255, 0, 0, 0.575);
+            
+            
+        }
+        .d1{
+          
+            width: 200px;
+            height: 200px;
+            border-radius: 200px;
+           border-right: 7px double rgb(255, 0, 0);
+           margin-left: 500px;
+           margin-bottom: 900px;
+            background-color: rgba(68, 0, 255, 0.575);
+          
+            
+            
+        }
+        img{
+            width: 200px;
+            height: 200px;
+            border-radius: 200px;
+        }
+        .sec{
+            position: relative;
+            width: 1000px;
+            height: 600px;
+            background-color: white ;
+            box-shadow:  15px 14px 18px whitesmoke, -15px -16px 18px whitesmoke;
+            margin-left: 200px;
+          display: none;
+        }
+        .b1{
+           width: 300px;
+           height: 50px;
+            font-size: 18px;
+            background-color: blueviolet;
+            cursor: pointer;
+            border: 10px groove;
+            border-radius: 20px;
+            box-shadow: 2px 3px 4px rgba(0, 0, 0, 0.623), -2px -3px 4px rgba(0, 0, 0, 0.541);
+        }
+        .closeup{
+           width: 300px;
+           height: 50px;
+            font-size: 18px;
+            background-color: blueviolet;
+            cursor: pointer;
+            border: 10px groove;
+            border-radius: 20px;
+            box-shadow: 2px 3px 4px rgba(0, 0, 0, 0.623), -2px -3px 4px rgba(0, 0, 0, 0.541);
+        }
+        
+        .show{
+            position: relative;
+            padding: 20px;
+            border-radius: 20px;
+            color: blue;
+            cursor: pointer;
+            left : 1200px;
+            border: groove;
+            font-size: 17px;
+        }
+        .show1{
+            position: relative;
+            padding: 20px;
+            border-radius: 20px;
+            color: blue;
+            cursor: pointer;
+            left : 1200px;
+           border: groove;
+            font-size: 17px;
+        }
+@media(max-width: 500px){
+    .show{
+        left : 210px;
+    }
+    .show1{
+        left : 210px;
+    }
+    .sec{
+        position: relative;
+        width: 370px;  
+        height: 600px;
+        right: 200px;
+
+    } 
+ .demo{
+    width: 170px;
+    height: 170px;
+  margin-left: 170px;
+ }
+    
+ img{
+    width: 170px;
+    height: 170px;
+ }
+ .d{
+    position: relative;
+    width: 170px;
+    height: 170px;
+    right: 290px;
+    top: 20px;
+ }
+ .demo1{
+   
+    width: 170px;
+    height: 170px;
+    right: 110px;
+ margin-top: 40px;
+ }
+ .d1{
+    position: relative;
+    width: 170px;
+    height: 170px;
+    right: 320px;
+    bottom: 150px;
+ }
+}
+
+        </style>
+      
+    </head>
+     <body>
+
+        
+
+        <button class="show">light</button>
+        <button class="show1">dark</button>
+            
+          <section class="sec">
+            <button class="closeup">Close</button>
+            <div class="demo">
+                <img src="img/pix1.jpg">
+            </div>
+           
+            <div class="d">
+              
+            </div>
+
+            <div class="demo1">
+                <img src="img/pix1.jpg">
+            </div>
+            
+            <div class="d1">
+              
+            </div>
+        </section>
+
+   <button class="b1">Hit me</button>
+
+   <script src="demo.js"></script>
+        </body>
+        </html>
+
+       
